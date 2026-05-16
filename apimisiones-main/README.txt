@@ -70,3 +70,5 @@ Para validar que todos los endpoints responden correctamente de manera local, ej
 python test_endpoints.py
 
 Nota: Requiere que la API este corriendo previamente en http://localhost:8000
+
+Prueba
