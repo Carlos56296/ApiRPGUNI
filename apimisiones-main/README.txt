@@ -36,7 +36,7 @@ Opciones disponibles en el menu:
 
 Desplegar en Render
 
-Base URL del despliegue: https://tu-api-rpg.onrender.com (Reemplazar con tu URL final)
+Base URL del despliegue: https://apirpguni.onrender.com (Reemplazar con tu URL final)
 
 Pasos para el despliegue automatizado:
 1. Crear cuenta en https://render.com
