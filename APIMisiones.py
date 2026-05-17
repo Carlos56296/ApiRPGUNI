@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import sqlite3
 
@@ -6,6 +7,14 @@ app = FastAPI(
     title="RPG Daily Quests API (SQLite)",
     description="API de misiones estilo RPG con base de datos SQLite",
     version="1.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 conn = sqlite3.connect("rpg.db", check_same_thread=False)

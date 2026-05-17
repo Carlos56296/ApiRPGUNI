@@ -1,7 +1,7 @@
 # RPG Daily Quests API - Documentacion de Endpoints
 
-Base URL: https://tu-api-rpg.onrender.com
-Documentacion interactiva: https://tu-api-rpg.onrender.com/docs
+Base URL: https://apirpgani.onrender.com
+Documentacion interactiva: https://apirpgani.onrender.com/docs
 
 ---
 
